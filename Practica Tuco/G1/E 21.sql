@@ -1,0 +1,6 @@
+SELECT name FROM sysobjects WHERE type = 'S'
+SELECT name FROM sysobjects WHERE type = 'V'
+SELECT name FROM sysobjects WHERE type = 'P'
+SELECT name FROM sysobjects WHERE type = 'TR'
+SELECT name FROM sysobjects WHERE type = 'K'
+SELECT name FROM sysobjects WHERE type = 'FK'

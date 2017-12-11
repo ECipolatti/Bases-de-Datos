@@ -1,0 +1,26 @@
+Ejercicios:
+
+1)Como se especifican en postgreSQL las Columnas autoincrementales
+2)Como se especifican en postgreSQL las	Columnas con fecha y hora.
+
+
+1)Existen dos formas:
+		a.- Creando la secuencia y la tabla
+		CREATE SEQUENCE foo_id_seq;
+		CREATE  TABLE foo (
+		    id integer DEFAULT  NEXTVAL('foo_id_seq') NOT  NULL,
+		    name character varying(8)  NOT  NULL
+		);
+ 
+		b.- Creando la tabla con el tipo "serial" para el campo "id".
+		CREATE  TABLE foo (
+		    id serial,
+		    name character varying(8)  NOT  NULL
+		);
+
+2) El tipo de dato es timestamp
+
+
+3)Investigue como realizar el ejercicio 4 (Guia 4) en PostgreSQL.
+4)Investigue como realizar el ejercicio 5 (Guia 4) en PostgreSQL.
+5)Investigue como realizar el ejercicio 1 (Guia 5) en PostgreSQL.

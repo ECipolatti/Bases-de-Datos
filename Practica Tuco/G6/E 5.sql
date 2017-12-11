@@ -1,0 +1,2 @@
+EXEC sp_helptext sp_ObtenerPrecio
+EXEC sp_helptext sp_help

@@ -1,0 +1,8 @@
+SELECT T.title
+FROM titles T
+WHERE T.title_id NOT IN ( /*MUESTRO LOS QUE "NO" ESTAN EN LA LISTA DE VENDIDOS*/
+	SELECT S.title_id
+		FROM sales S
+		WHERE YEAR(S.ord_date) IN ('1993','1994'))/*TODOS LOS QUE SE VENDIERON EN EL 93 Y 94*/
+
+

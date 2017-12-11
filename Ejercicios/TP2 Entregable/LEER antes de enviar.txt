@@ -1,0 +1,11 @@
+Para agregar en el mail.
+--Nombre de los integrantes de grupo
+--y esto
+
+El proceso de ejecucion de los scrips se debe dar en el siguiente orden
+1- "Creación de tablas".sql
+2- "Final Entrega.sql" o el nombre del archivo que hayas puesto
+3- "Consultas.sql"
+4- "Trigger.sql"
+
+CAMBIALE EL NOMBRE AL FINAL ENTREGA Y FIJATE EL PASO DOS
